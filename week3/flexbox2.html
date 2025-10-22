@@ -5,15 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox2.html</title>
+    <style>
+        .main {
+            display: flex;
+            gap: calc(100%/8);
+        }
+
+        .pages {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            flex-grow: 1;
+        }
+    </style>
 </head>
 
 <body>
-    <div>
-        <p>Home</p>
-        <p>Services</p>
-        <p>Work</p>
-        <p>Project Details</p>
-        <p>Contact</p>
+    <div class="main">
+        <div><img src="image/elementra logo.png" alt="Elementra Logo" width="100%"></div>
+        <div class="pages">
+            <p>Home</p>
+        </div>
+        <div class="pages">
+            <p>Services</p>
+        </div>
+        <div class="pages">
+            <p>Work</p>
+        </div>
+        <div class="pages">
+            <p>Project Details</p>
+        </div>
+        <div class="pages">
+            <p>Contact</p>
+        </div>
     </div>
 </body>
 
