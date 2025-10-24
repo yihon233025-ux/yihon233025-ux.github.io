@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox3.html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        .main {
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+
+        .logo {
+            margin: auto 5px;
+        }
+
+        .logo img {
+            margin: auto;
+        }
+
+        .submain {
+            display: flex;
+            gap: 30px;
+            margin: auto 5px;
+        }
+
+        .submain h4 {
+            font-family: 'Space Grotesk';
+        }
+
+        .subbutton {
+            border: 1px solid;
+            border-radius: 8px;
+            padding: 10px 20px;
+            margin: auto;
+        }
+
+        .button {
+            text-decoration: none;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="logo">
+            <img src="image/Frame 9.png" alt="logo" width="150px">
+        </div>
+
+        <div class="submain">
+
+            <div class="sub">
+                <h4>About us</h4>
+            </div>
+
+            <div class="sub">
+                <h4>Services</h4>
+            </div>
+
+            <div class="sub">
+                <h4>Use Cases</h4>
+            </div>
+
+            <div class="sub">
+                <h4>Pricing</h4>
+            </div>
+
+            <div class="sub">
+                <h4>Blog</h4>
+            </div>
+
+            <div class="subbutton">
+                <a class="button" href="#">Request a quote</a>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
