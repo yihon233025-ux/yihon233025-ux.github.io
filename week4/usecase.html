@@ -82,6 +82,7 @@
 
         .tittlegroup {
             width: 50%;
+            margin: auto;
         }
 
         .tittle h1 {
@@ -122,21 +123,21 @@
         @media screen and (max-width: 1090px) {
 
             .submain h4 {
-                font-family: 'Space Grotesk';
-                font-weight: normal;
                 font-size: 10px;
             }
 
             .subbutton {
-                border: 1px solid;
                 border-radius: 8px;
                 padding: 2px 5px;
-                margin: auto;
             }
 
         }
 
         @media screen and (max-width: 700px) {
+
+            .main {
+                margin: 20px;
+            }
 
             .logo {
                 width: 30%;
@@ -145,11 +146,45 @@
             .subgroup {
                 display: none;
             }
+
+            .main02 {
+                flex-direction: column;
+                margin: 20px;
+            }
+
+            .illus {
+                display: none;
+            }
+
+            .illus02 {
+                width: 90%;
+                margin: auto;
+            }
+
+            .tittlegroup {
+                width: 100%;
+            }
+
+            .tittle h1 {
+                font-size: 50px;
+            }
+
+            .subtittle {
+                width: 100%;
+            }
+
+            .subtittle p {
+                font-size: 18px;
+            }
         }
 
         @media screen and (min-width: 700px) {
 
             .menu {
+                display: none;
+            }
+
+            .illus02 {
                 display: none;
             }
         }
@@ -210,6 +245,10 @@
 
             <div class="tittle">
                 <h1>Proven Success Stories</h1>
+            </div>
+
+            <div class="illus02">
+                <img src="image/usecase illus.png" alt="illus" width="100%">
             </div>
 
             <div class="subtittle">
