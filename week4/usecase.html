@@ -26,7 +26,6 @@
 
         .submain {
             display: flex;
-            gap: 25px;
             margin: auto 5px;
         }
 
@@ -34,6 +33,12 @@
             font-family: 'Space Grotesk';
             font-weight: normal;
             font-size: 20px;
+        }
+
+        .subgroup {
+            display: flex;
+            gap: 25px;
+            margin: auto 5px;
         }
 
         .sub h4 {
@@ -60,6 +65,10 @@
             font-family: 'Space Grotesk';
         }
 
+        .menu {
+            margin: auto;
+        }
+
         .main02 {
             display: flex;
             justify-content: space-between;
@@ -82,13 +91,67 @@
         }
 
         .subtittle {
-            width: 71%;
+            width: 69%;
         }
 
         .subtittle p {
             font-family: 'Space Grotesk';
             font-size: 20px;
             font-weight: normal;
+        }
+
+        /* media query */
+
+        @media screen and (max-width: 1200px) {
+
+            .submain h4 {
+                font-family: 'Space Grotesk';
+                font-weight: normal;
+                font-size: 16px;
+            }
+
+            .subbutton {
+                border: 1px solid;
+                border-radius: 8px;
+                padding: 5px 10px;
+                margin: auto;
+            }
+
+        }
+
+        @media screen and (max-width: 1090px) {
+
+            .submain h4 {
+                font-family: 'Space Grotesk';
+                font-weight: normal;
+                font-size: 10px;
+            }
+
+            .subbutton {
+                border: 1px solid;
+                border-radius: 8px;
+                padding: 2px 5px;
+                margin: auto;
+            }
+
+        }
+
+        @media screen and (max-width: 700px) {
+
+            .logo {
+                width: 30%;
+            }
+
+            .subgroup {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 700px) {
+
+            .menu {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -102,30 +165,37 @@
 
         <div class="submain">
 
-            <div class="sub">
-                <h4>About us</h4>
+            <div class="subgroup">
+
+                <div class="sub">
+                    <h4>About us</h4>
+                </div>
+
+                <div class="sub">
+                    <h4>Services</h4>
+                </div>
+
+                <div class="sub03">
+                    <h4>Use Cases</h4>
+                </div>
+
+                <div class="sub">
+                    <h4>Pricing</h4>
+                </div>
+
+                <div class="sub">
+                    <h4>Blog</h4>
+                </div>
+
+                <div class="subbutton">
+                    <a class="button" href="#">Request a quote</a>
+                </div>
+
             </div>
 
-            <div class="sub">
-                <h4>Services</h4>
+            <div class="menu">
+                <img src="image/Asset 1@4x.png" alt="menu" width="30" height="20">
             </div>
-
-            <div class="sub03">
-                <h4>Use Cases</h4>
-            </div>
-
-            <div class="sub">
-                <h4>Pricing</h4>
-            </div>
-
-            <div class="sub">
-                <h4>Blog</h4>
-            </div>
-
-            <div class="subbutton">
-                <a class="button" href="#">Request a quote</a>
-            </div>
-
         </div>
 
     </div>
