@@ -5,9 +5,252 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index.html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Orbitron";
+            background-color: #578FCA;
+            color: #D1F8EF;
+        }
+
+        .main01 {
+            display: flex;
+            justify-content: space-between;
+            background-color: #3674B5;
+            border: solid 4px#D1F8EF;
+            border-radius: 10px;
+        }
+
+        .main01 diV {
+            margin: auto 10px;
+        }
+
+        .sociallogo {
+            margin: auto 0px;
+        }
+
+        .main02 {
+            background-color: #3674B5;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile h3 {
+            margin: 5px;
+            font-size: 30px;
+        }
+
+        .profile p {
+            margin: 20px auto;
+            width: 90%;
+            font-size: 18px;
+        }
+
+        .weeklybox {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .exercisesbox {
+            background-color: #D1F8EF;
+            border-radius: 10px;
+            padding: 20px;
+            margin: auto;
+            width: calc(100%/6);
+        }
+
+        .week {
+            display: flex;
+            margin: 0px auto 10px auto;
+            background-color: #3674B5;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .week img {
+            margin: auto 5px;
+        }
+
+        .week h5 {
+            color: #D1F8EF;
+            margin: auto 5px;
+        }
+
+        .linkforexe {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            margin: auto;
+        }
+
+        .linkforexe a {
+            text-decoration: none;
+            color: #3674B5;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 700px) {
+            .h3 {
+                font-size: 30px;
+            }
+
+            .sociallogo {
+                display: none;
+            }
+
+            .profile p {
+                font-size: 12px;
+            }
+
+            .exercisesbox {
+                width: 40%;
+            }
+
+            .week h5 {
+                font-size: 16px;
+            }
+        }
+    </style>
 </head>
 
 <body>
+
+    <div class="main01">
+
+        <div class="logo">
+            <h1>Y._.H</h1>
+        </div>
+
+        <div class="sociallogo">
+            <a href="#"><img src="image/facebook.png" alt="facebook" width="30"></a>
+
+            <a href="#"><img src="image/instagram.png" alt="instagram" width="30"></a>
+
+            <a href="#"><img src="image/tiktok.png" alt="tiktok" width="30"></a>
+        </div>
+
+    </div>
+
+    <div class="main02">
+
+        <div class="profile">
+            <img src="image/cv-1.png" alt="profilephoto" width="250">
+
+            <h3>Chew Yi Hon</h3>
+
+            <p>My name is Chew Yi Hon. I am 21 years old this year.I am currently studying at Dasein Academy of Art,
+                majoring in
+                Digital Media. I have a strong passion for drawing and design, as they allow me to express my creativity
+                and
+                bring my ideas to life. I also enjoy exploring different art styles and experimenting with digital tools
+                to
+                improve my skills. In my free time, I love to play video games and watch anime, as they inspire my
+                imagination
+                and often influence my artistic concepts. Through my studies and hobbies, I hope to continue growing as
+                a
+                creative and develop my own unique artistic style.</p>
+        </div>
+
+        <div class="weeklybox">
+
+            <div class="exercisesbox">
+                <div class="week">
+                    <img src="image/check.png" alt="calander" width="15" height="15">
+                    <h5>Week 1</h5>
+
+                </div>
+
+                <div class="linkforexe">
+                    <a href="#">Exercise 1</a>
+                    <a href="#">Exercise 2</a>
+                </div>
+
+            </div>
+
+            <div class="exercisesbox">
+
+                <div class="week">
+
+                    <img src="image/check.png" alt="calander" width="15" height="15">
+                    <h5>Week 2</h5>
+
+                </div>
+
+                <div class="linkforexe">
+                    <a href="#">Exercise 1</a>
+                    <a href="#">Exercise 2</a>
+                </div>
+
+            </div>
+
+            <div class="exercisesbox">
+
+                <div class="week">
+
+                    <img src="image/check.png" alt="calander" width="15" height="15">
+                    <h5>Week 3</h5>
+
+                </div>
+
+                <div class="linkforexe">
+                    <a href="#">Exercise 1</a>
+                    <a href="#">Exercise 2</a>
+                </div>
+
+            </div>
+
+            <div class="exercisesbox">
+
+                <div class="week">
+
+                    <img src="image/check.png" alt="calander" width="15" height="15">
+                    <h5>Week 4</h5>
+
+                </div>
+
+                <div class="linkforexe">
+                    <a href="#">Exercise 1</a>
+                    <a href="#">Exercise 2</a>
+                </div>
+
+            </div>
+
+            <div class="exercisesbox">
+
+                <div class="week">
+
+                    <img src="image/check.png" alt="calander" width="15" height="15">
+                    <h5>Week 5</h5>
+
+                </div>
+
+                <div class="linkforexe">
+                    <a href="#">Exercise 1</a>
+                    <a href="#">Exercise 2</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="main03">
+        <div class="sociallogo02">
+            <a href="#"><img src="image/facebook.png" alt="facebook" width="30"></a>
+
+            <a href="#"><img src="image/instagram.png" alt="instagram" width="30"></a>
+
+            <a href="#"><img src="image/tiktok.png" alt="tiktok" width="30"></a>
+        </div>
+    </div>
 
 </body>
 
