@@ -21,7 +21,7 @@ body {
 }
 
 .main02 {
-    background-image: url(image/464863.jpg);
+    background-image: url(../image/464863.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
