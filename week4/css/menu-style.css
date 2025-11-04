@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(188, 188, 188);
+}
+
+.main {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.main div h6 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo {
+    margin: auto auto auto 30px;
+}
+
+.grouppages {
+    display: flex;
+    gap: 30px;
+}
+
+.pages {
+    display: flex;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+    margin: auto 30px auto auto;
+    ;
+}
+
+.icon {
+    margin: auto;
+}
+
+.button {
+    font-family: 'Oxygen', sans-serif;
+    background-color: rgb(249, 97, 43);
+    border-radius: 10px;
+    color: rgb(235, 235, 235);
+    padding: 12px 17px;
+    margin: auto;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(204, 79, 35);
+}
+
+.menu {
+    margin: auto;
+}
+
+@media screen and (min-width: 1200px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .button,
+    .grouppages {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .icon,
+    .phonenumber {
+        display: none;
+    }
+}
