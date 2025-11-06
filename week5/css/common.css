@@ -22,7 +22,7 @@ body {
     margin: auto 5px;
 }
 
-.h4 {
+h4 {
     font-weight: normal;
     font-size: 20px;
 }
@@ -34,9 +34,67 @@ body {
     margin: auto;
 }
 
+.menu {
+    margin: auto;
+}
+
 .button {
     text-decoration: none;
     text-align: center;
     color: black;
     font-family: 'Space Grotesk';
+}
+
+@media screen and (max-width: 1200px) {
+
+    .submain h4 {
+        font-family: 'Space Grotesk';
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    .subbutton {
+        border: 1px solid;
+        border-radius: 8px;
+        padding: 5px 10px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 1090px) {
+
+    .submain h4 {
+        font-size: 10px;
+    }
+
+    .subbutton {
+        border-radius: 8px;
+        padding: 2px 5px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .main {
+        margin: 20px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .subgroup {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+
+    .menu {
+        display: none;
+    }
+
 }
