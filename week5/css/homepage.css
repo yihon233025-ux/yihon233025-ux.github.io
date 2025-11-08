@@ -16,38 +16,39 @@
     margin: 0px auto 40px auto;
 }
 
-.title03 {
-    margin: 30px auto 60px auto;
-}
-
 .illus {
     margin: auto 30px;
     width: 80%;
 }
 
-.title h1 {
+.title01 h1 {
     font-family: 'Space Grotesk';
     font-size: 70px;
     font-weight: normal;
     width: 90%;
 }
 
-.title h3 {
+.title02 h3 {
     font-family: 'Space Grotesk';
     font-size: 20px;
     font-weight: normal;
-    width: 70%;
+    width: 77%;
+}
+
+.title03 {
+    background-color: black;
+    border-radius: 10px;
+    padding: 18px 28px;
+    width: 30%;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
 }
 
 .button02 {
-    background-color: black;
     text-decoration: none;
-    text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Space Grotesk';
     font-size: 20px;
-    border-radius: 10px;
-    padding: 18px 28px;
 }
 
 .main03 {
@@ -62,23 +63,30 @@
     margin: auto;
 }
 
-@media screen and (max-width: 1200px) {}
-
 @media screen and (max-width: 800px) {
     .main02 {
-        width: 100%;
+        margin: 20px;
     }
 
     .illus {
         display: none;
     }
 
-    .title h1 {
-        font-size: 50px;
+    .title01 h1 {
+        font-size: 46px;
+        width: 100%;
     }
 
     .illus02 {
-        width: 50%;
+        width: 100%;
+    }
+
+    .title02 h3 {
+        width: 100%;
+    }
+
+    .title03 {
+        width: 86%;
     }
 
     .main03 {

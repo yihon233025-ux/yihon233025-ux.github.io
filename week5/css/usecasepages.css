@@ -227,6 +227,7 @@
     .main02 {
         flex-direction: column;
         margin: 20px;
+        padding: 0px;
         background-color: unset;
     }
 
@@ -245,7 +246,7 @@
     }
 
     .tittle h1 {
-        font-size: 50px;
+        font-size: 46px;
     }
 
     .subtittle {
