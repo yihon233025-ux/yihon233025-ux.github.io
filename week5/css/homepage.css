@@ -1,3 +1,8 @@
+.main02 {
+    display: flex;
+    margin: auto 70px;
+}
+
 .title {
     margin: auto;
     width: 100%;
@@ -43,4 +48,13 @@
     font-size: 20px;
     border-radius: 10px;
     padding: 18px 28px;
+}
+
+.mai03 {
+    display: flex;
+}
+
+.main03 div {
+    display: flex;
+    width: calc(100%/6);
 }
