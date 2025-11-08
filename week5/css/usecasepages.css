@@ -2,7 +2,7 @@
     background-color: #f3f3f3;
     display: flex;
     justify-content: space-between;
-    margin: 100px;
+    margin: 70px;
     border-radius: 50px;
     padding: 10px;
 }
@@ -254,7 +254,7 @@
     }
 
     .subtittle p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .main03 {
