@@ -1,3 +1,16 @@
+.sub03 {
+    background-color: #B9FF66;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.sub03 a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 .main02 {
     background-color: #f3f3f3;
     display: flex;
@@ -188,6 +201,10 @@
 
 @media screen and (max-width: 1200px) {
 
+    .sub03 a {
+        font-size: 16px;
+    }
+
     .tittleandcontent h2 {
         font-size: 30px;
     }
@@ -220,6 +237,17 @@
         margin: 10px auto;
     }
 
+}
+
+@media screen and (max-width: 1090px) {
+
+    .sub03 {
+        padding: 2px 5px;
+    }
+
+    .sub03 a {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 800px) {

@@ -22,9 +22,16 @@ body {
     margin: auto 5px;
 }
 
-h4 {
+.sub {
+    margin: auto;
+}
+
+.sub a {
+    color: black;
+    text-decoration: none;
     font-weight: normal;
     font-size: 20px;
+    padding: 5px 10px;
 }
 
 .subbutton {
@@ -47,9 +54,7 @@ h4 {
 
 @media screen and (max-width: 1200px) {
 
-    .submain h4 {
-        font-family: 'Space Grotesk';
-        font-weight: normal;
+    .submain a {
         font-size: 16px;
     }
 
@@ -64,7 +69,7 @@ h4 {
 
 @media screen and (max-width: 1090px) {
 
-    .submain h4 {
+    .submain a {
         font-size: 10px;
     }
 
