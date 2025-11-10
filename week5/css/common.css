@@ -16,6 +16,10 @@ body {
     margin: auto;
 }
 
+.submain {
+    margin: auto 0px;
+}
+
 .subgroup {
     display: flex;
     gap: 30px;

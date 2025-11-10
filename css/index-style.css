@@ -47,7 +47,6 @@ body {
 .weeklybox {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     opacity: 80%;
 }
 
@@ -55,8 +54,17 @@ body {
     background-color: #D1F8EF;
     border-radius: 10px;
     padding: 20px;
-    margin: auto;
-    width: calc(100%/5);
+    margin: 20px auto;
+    width: calc(100%/4);
+    height: 150px;
+}
+
+.exercisesbox2 {
+    background-color: #D1F8EF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 42%;
     height: 150px;
 }
 
@@ -117,6 +125,10 @@ body {
     }
 
     .exercisesbox {
+        width: 40%;
+    }
+
+    .exercisesbox2 {
         width: 40%;
     }
 
