@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: sans-serif;
+    margin: auto 20px;
+}
+
+.head {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.pic img {
+    border-radius: 20px;
+}
+
+.readmore {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1080px) {
+    .readmore {
+        padding: 16px;
+        top: -50px;
+    }
+
+    .readmore h4 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .readmore {
+        padding: 8px;
+    }
+
+    .readmore h4 {
+        font-size: 10px;
+    }
+}
