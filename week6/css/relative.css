@@ -37,9 +37,15 @@ body {
     .readmore h4 {
         font-size: 14px;
     }
+
+    .readmore a {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 800px) {
+
+
     .readmore {
         padding: 8px;
     }
@@ -47,4 +53,20 @@ body {
     .readmore h4 {
         font-size: 10px;
     }
+
+    .readmore a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .pic {
+        width: 90%;
+        margin: auto;
+    }
+
 }
