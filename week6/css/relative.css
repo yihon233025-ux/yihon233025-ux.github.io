@@ -10,21 +10,26 @@ body {
 
 .content {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contentbox {
+    width: 30%;
+    margin: auto;
 }
 
 .pic img {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .readmore {
     background-color: rgb(255, 255, 255);
     width: 80%;
-    padding: 25px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 10px;
     text-align: center;
     position: relative;
-    top: -100px;
+    top: -50px;
     margin: auto;
 }
 
@@ -45,6 +50,10 @@ body {
 
 @media screen and (max-width: 800px) {
 
+    .contentbox {
+        width: 40%;
+    }
+
 
     .readmore {
         padding: 8px;
@@ -62,6 +71,10 @@ body {
 @media screen and (max-width: 600px) {
     .content {
         flex-direction: column;
+    }
+
+    .contentbox {
+        width: 100%;
     }
 
     .pic {
