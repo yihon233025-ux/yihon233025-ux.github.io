@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+
+.box {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.367);
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.trippic {
+    padding: 10px 10px 0px 10px;
+}
+
+.trippic img {
+    border-radius: 8px;
+}
+
+.tittle h1 {
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.tittle p {
+    color: rgb(90, 90, 90);
+    font-size: 12px;
+    padding: 0px 10px;
+}
