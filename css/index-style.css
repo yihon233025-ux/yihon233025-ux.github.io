@@ -59,15 +59,6 @@ body {
     height: 150px;
 }
 
-.exercisesbox2 {
-    background-color: #D1F8EF;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    width: 42%;
-    height: 150px;
-}
-
 .week {
     display: flex;
     justify-content: center;
@@ -128,11 +119,16 @@ body {
         width: 40%;
     }
 
-    .exercisesbox2 {
-        width: 40%;
+    .week img {
+        margin: auto 2px;
     }
 
     .week h5 {
+        font-size: 14px;
+        margin: auto 2px;
+    }
+
+    .linkforexe a {
         font-size: 16px;
     }
 
