@@ -27,3 +27,34 @@ body {
     font-size: 12px;
     padding: 0px 10px;
 }
+
+.icon {
+    padding: 10px 10px 0px 10px;
+}
+
+.icon img {
+    margin: auto 3px;
+}
+
+.peoplegoing {
+    display: flex;
+    padding: 10px 10px 0px 10px;
+    justify-content: space-between;
+}
+
+.show {
+    display: flex;
+}
+
+.show img {
+    margin: auto 5px;
+}
+
+.show p {
+    color: rgb(90, 90, 90);
+    font-size: 12px;
+}
+
+.likeicon {
+    margin: auto 0px;
+}
