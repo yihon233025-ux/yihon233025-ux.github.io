@@ -4,18 +4,19 @@ body {
 
 .allrelative {
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
 }
 
 .tripplace {
-    margin: auto;
     position: relative;
-    width: 26%;
+    width: 40%;
+    margin: auto;
 }
 
 .box {
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.367);
+    box-shadow: 20px -20px 60px rgba(147, 181, 255, 0.553);
     border-radius: 10px;
 }
 
@@ -72,7 +73,7 @@ body {
 
 div.commentbox {
     position: absolute;
-    top: 280px;
+    top: 320px;
     right: -50px;
 }
 
@@ -102,6 +103,10 @@ div.commentbox {
 }
 
 @media screen and (max-width: 1080px) {
+    .allrelative {
+        gap: 60px;
+    }
+
     .tripplace {
         width: 50%;
         margin: auto;
@@ -113,9 +118,6 @@ div.commentbox {
 }
 
 @media screen and (max-width: 850px) {
-    .allrelative {
-        gap: 60px;
-    }
 
     div.commentbox {
         top: 280px;
@@ -138,12 +140,12 @@ div.commentbox {
 
 @media screen and (max-width: 600px) {
     div.commentbox {
-        top: 210px;
-        right: -90px;
+        top: 200px;
+        right: -100px;
     }
 
     .commentbox {
-        width: 75%;
+        width: 100%;
     }
 
     .comment h6 {
