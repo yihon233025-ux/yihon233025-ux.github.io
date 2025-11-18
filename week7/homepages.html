@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepages.html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/homepage.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="logo">
+            <a href="homepages.html"><img src="image/Frame 9.png" alt="logo" width="100%"></a>
+        </div>
+
+        <div class="submain">
+
+            <nav class="subgroup" id="mobile-menu">
+
+                <div class="sub">
+                    <a href="#">About us</a>
+                    <div class="submenu">
+                        <a href="#">Web Development</a>
+                        <a href="#">App Development</a>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <a href="#">Services</a>
+                </div>
+
+                <div class="sub">
+                    <a href="usecasepages.html">Use Cases</a>
+                </div>
+
+                <div class="sub">
+                    <a href="#">Pricing</a>
+                </div>
+
+                <div class="sub">
+                    <a href="#">Blog</a>
+                </div>
+
+                <div class="subbutton">
+                    <a class="button" href="#">Request a quote</a>
+                </div>
+
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </div>
+
+    </div>
+
+    <div class="main02">
+        <div class="title">
+            <div class="title01">
+                <h1>Navigating the digital landscape for success</h1>
+            </div>
+
+            <div class="illus02">
+                <img src="image/Illustration.png" alt="Illustration" width="100%">
+            </div>
+
+            <div class="title02">
+                <h3>Our digital marketing agency helps businesses grow and succeed online through a range of
+                    services
+                    including SEO, PPC, social media marketing, and content creation.</h3>
+            </div>
+
+            <div class="title03">
+                <a class="button02" href="#">Book a consultation</a>
+            </div>
+
+        </div>
+
+        <div class="illus">
+            <img src="image/Illustration.png" alt="Illustration" width="100%">
+        </div>
+
+    </div>
+
+    <div class="main03">
+
+        <div class="brand">
+            <img src="image/Company logo.png" alt="brand logo" width="100%">
+        </div>
+
+        <div class="brand">
+            <img src="image/Company logo (1).png" alt="brand logo" width="100%">
+        </div>
+
+        <div class="brand">
+            <img src="image/Company logo (2).png" alt="brand logo" width="100%">
+        </div>
+
+        <div class="brand">
+            <img src="image/Company logo (3).png" alt="brand logo" width="100%">
+        </div>
+
+        <div class="brand">
+            <img src="image/Company logo (4).png" alt="brand logo" width="100%">
+        </div>
+
+        <div class="brand">
+            <img src="image/Company logo (5).png" alt="brand logo" width="100%">
+        </div>
+    </div>
+
+    <script>
+        const toggleButton = document.getElementById("menu-toggle");
+        const menu = document.getElementById("mobile-menu");
+
+        toggleButton.addEventListener("click", () => {
+            menu.classList.toggle("active");
+
+            // Change icon
+            if (menu.classList.contains("active")) {
+                toggleButton.innerHTML = "&times;"; // × (cross)
+            } else {
+                toggleButton.innerHTML = "&#9776;"; // ☰ (hamburger)
+            }
+        });
+    </script>
+
+</body>
+
+</html>
