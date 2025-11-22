@@ -13,7 +13,7 @@ h1 {
 
 input {
     border-radius: 30px;
-    border-color: rgb(170, 170, 170);
+    border-color: rgb(235, 69, 69);
     padding: 15px;
 }
 
@@ -42,8 +42,19 @@ input {
     margin: 5px;
 }
 
+.homepagelink input {
+    width: 91.5%;
+    margin: 5px;
+}
+
+.choose {
+    font-size: 16px;
+    margin: 5px;
+}
+
 .introbio {
-    width: 94%;
+    width: 91.5%;
+    margin: 5px;
     padding: 15px;
 }
 
@@ -53,4 +64,52 @@ input {
     border: unset;
     background-color: rgb(41, 147, 253);
     color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    input {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .name input {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .birthdate {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .useremail {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .homepagelink input {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .choose {
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .introbio {
+        width: 84%;
+        margin: 5px;
+        padding: 8px;
+    }
+
+    .submitbutton {
+        width: 96%;
+        margin: 5px;
+        padding: 8px;
+    }
 }
