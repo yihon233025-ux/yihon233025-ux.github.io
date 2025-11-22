@@ -6,7 +6,7 @@ h1 {
 
 .box {
     margin: auto;
-    width: 50%;
+    width: 40%;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(158, 158, 255, 0.529);
 }
@@ -23,7 +23,7 @@ input {
 }
 
 .name input {
-    width: 42%;
+    width: 41.5%;
     margin: 5px;
 }
 
@@ -40,4 +40,17 @@ input {
 .useremail {
     width: 53%;
     margin: 5px;
+}
+
+.introbio {
+    width: 94%;
+    padding: 15px;
+}
+
+.submitbutton {
+    width: 100%;
+    padding: 10px;
+    border: unset;
+    background-color: rgb(41, 147, 253);
+    color: rgb(255, 255, 255);
 }
