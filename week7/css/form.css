@@ -66,6 +66,115 @@ input {
     color: rgb(255, 255, 255);
 }
 
+@media screen and (max-width: 1350px) {
+    .name input {
+        width: 41%;
+        margin: 5px;
+    }
+
+    .birthdate {
+        width: 30%;
+        margin: 5px;
+    }
+
+    .useremail {
+        width: 52%;
+        margin: 5px;
+    }
+
+    .homepagelink input {
+        width: 92%;
+        margin: 5px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .name input {
+        width: 40%;
+        margin: 5px;
+    }
+
+    .birthdate {
+        width: 30%;
+        margin: 5px;
+    }
+
+    .useremail {
+        width: 50%;
+        margin: 5px;
+    }
+
+    .homepagelink input {
+        width: 92%;
+        margin: 5px;
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+    .name input {
+        width: 39%;
+        margin: 5px;
+    }
+
+    .birthdate {
+        width: 28%;
+        margin: 5px;
+    }
+
+    .useremail {
+        width: 50%;
+        margin: 5px;
+    }
+
+    .homepagelink input {
+        width: 92%;
+        margin: 5px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .name input {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .birthdate {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .useremail {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .homepagelink input {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .introbio {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .submitbutton {
+        width: 94%;
+        margin: 5px;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    .name input {
+        width: 35%;
+        margin: 5px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 30px;
