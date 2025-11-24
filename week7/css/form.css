@@ -54,10 +54,16 @@ input {
     margin: 5px;
 }
 
+.homepagelink {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .homepagelink input {
-    width: 83%;
+    width: 90%;
     margin: 5px;
-    align-items: center;
 }
 
 .choose {
@@ -66,13 +72,28 @@ input {
 }
 
 .introbio {
-    width: 91.5%;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.introbio input {
+    width: 90%;
     margin: 5px;
     padding: 15px;
+    display: flex;
 }
 
 .submitbutton {
+    margin: auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submitbutton input {
+    width: 95%;
     padding: 10px;
     border: unset;
     background-color: rgb(41, 147, 253);
@@ -86,6 +107,7 @@ input {
 
     h5 {
         font-size: 10px;
+        margin: 10px;
     }
 
     input {
@@ -126,15 +148,19 @@ input {
         margin: 10px;
     }
 
-    .introbio {
+    .introbio input {
         width: 84%;
         margin: 5px;
         padding: 8px;
     }
 
-    .submitbutton {
-        width: 96%;
+    .submitbutton input {
+        width: 94%;
         margin: 5px;
         padding: 8px;
+    }
+
+    br {
+        display: none;
     }
 }
