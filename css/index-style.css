@@ -59,6 +59,15 @@ body {
     height: 150px;
 }
 
+.exercisesboxtwo {
+    background-color: #D1F8EF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 92%;
+    height: 150px;
+}
+
 .week {
     display: flex;
     justify-content: center;
@@ -116,6 +125,10 @@ body {
     }
 
     .exercisesbox {
+        width: 40%;
+    }
+
+    .exercisesboxtwo {
         width: 40%;
     }
 
